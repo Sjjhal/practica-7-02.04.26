@@ -1,10 +1,10 @@
-public class Vektor {
+public class MijVektor {
 
     private int[] dani;
     private int rozmir;
     private int mistkist;
 
-    public Vektor() {
+    public MijVektor() {
         mistkist = 4;
         dani = new int[mistkist];
         rozmir = 0;
@@ -77,7 +77,7 @@ public class Vektor {
     }
 
     public static void main(String[] args) {
-        Vektor v = new Vektor();
+        MijVektor v = new MijVektor();
 
         v.dodatyVKinez(10);
         v.dodatyVKinez(20);
